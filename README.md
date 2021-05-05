@@ -46,4 +46,6 @@ The T-test was performed to analyze if the mean of all lots and the mean by indi
 
 ![Lot3](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/OneSampleT_Lot3_test.PNG)
 
+Assuming our significance level was at 0.05 ,the P-values of All Lots (0.06), Lot1(1) and Lot2(0.60) are greater than 0.05, the PSI levels are statistically similar to the population mean of 1500 PSI. Lot3 however with a P-value of 0.041 is less than 0.05 and hence the null hypothesis can be rejected stating that the PSI levels of Lot3 is statistically different from the population mean of 1500 PSI. 
+
 
