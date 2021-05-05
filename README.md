@@ -19,3 +19,15 @@ AutosRUs’ newest prototype, the MechaCar, is suffering from production trouble
 ### Results
 
 Based on the above screenshots, 2 variables provided a non-random amount of variance. These variables are vehicle_length and ground_clearence. Both these variables have extremely small p-values. The remaining 3 attributes namely vehicle_weight,spoiler_angle and AWD contribute to the miles per gallon variance. The r-squared value is 0.7149 which means the model is accurate in predicting the mpg 71.5% of the times making this model a pretty effective method to predict miles per gallon.
+
+## Summary Statistics on Suspension Coils
+
+The suspension coils dataset comprised of 150 vehicles IDs falling under 3 lots, and the corresponding PSI levels for each vehicle. As part of the analysis 2 separate summary tables were created to look at the mean,median,variance and standard deviation of the data. The first table looked at all the cars as a whole and the second one classified the data by lots.
+
+### Results
+
+![Total Summary](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/TotSummary_SuspensionCoil.PNG)
+
+![Lot Summary](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/Smmarybylot_SuspensionCoil.PNG)
+
+The variance of all the cars considered irrespective of the lot is approximately 62.29 PSI meaning that it meets the design specification. On looking at the summary at the lot level, Lot 1 and Lot 2 meet the design specification at a variance of approximately 0.97 PSI and 7.46 PSI. However Lot 3 does not meet the design specification since its  variance is approximately more than twice the alloted amount at 170.28 PSI. Hence the manufacturing team should work with the cars in lots 1 and 2 compared to those in lot 3.
