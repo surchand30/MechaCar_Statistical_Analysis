@@ -30,4 +30,20 @@ The suspension coils dataset comprised of 150 vehicles IDs falling under 3 lots,
 
 ![Lot Summary](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/Smmarybylot_SuspensionCoil.PNG)
 
-The variance of all the cars considered irrespective of the lot is approximately 62.29 PSI meaning that it meets the design specification. On looking at the summary at the lot level, Lot 1 and Lot 2 meet the design specification at a variance of approximately 0.97 PSI and 7.46 PSI. However Lot 3 does not meet the design specification since its  variance is approximately more than twice the alloted amount at 170.28 PSI. Hence the manufacturing team should work with the cars in lots 1 and 2 compared to those in lot 3.
+The variance of all the cars considered irrespective of the lot is approximately 62.29 PSI which means that it meets the design specification. On looking at the summary at the lot level, Lot 1 and Lot 2 meet the design specification at a variance of approximately 0.97 PSI and 7.46 PSI. However Lot 3 does not meet the design specification since its  variance is approximately more than twice the alloted amount at 170.28 PSI. Hence the manufacturing team should work with the cars in lots 1 and 2 compared to those in lot 3.
+
+## T-Tests on Suspension Coils
+
+The T-test was performed to analyze if the mean of all lots and the mean by individual lots were statistically similar or different from the population mean of 1500 PSI.
+
+### Results
+
+![All Lots](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/OneSampleT_test.PNG)
+
+![Lot1](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/OneSampleT_Lot1_test.PNG)
+
+![Lot2](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/OneSampleT_Lot2_test.PNG)
+
+![Lot3](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/OneSampleT_Lot3_test.PNG)
+
+
