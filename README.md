@@ -50,4 +50,24 @@ Assuming our significance level was at 0.05 ,the P-values of All Lots (0.06), Lo
 
 ## Study Design: MechaCar vs Competition
 
+Below are a few metrics that could be used to compare MechaCar's performance to other car manufacturers
+
+1) Safety Features/Rating
+2) Cost
+3) Fuel Efficiency
+
+Since Safety Features are the most important feature that one looks for while purchasing a car, I would like to study how Mechacar fared in this aspect. 
+
+NULL HYPOTHESIS : MechaCar and its competitors have similar safety ratings score
+ALTERNATE HYPOTHESIS : There is be a difference between the safety ratings between MechaCar and its competitors
+
+Using T-test will help us understand if the Null or Alternate Hypothesis is true since the safety rating data is a numerical value. Taking a sample of different vehicle types from both MechaCar and its competitors and comparing their Safety rating would help understand how MechaCar is performing.
+
+Sample Data : With 1 being the least safe and 5 being the most safe below is sample data
+![Sample Data](https://github.com/surchand30/MechaCar_Statistical_Analysis/blob/main/images/Sample%20Data.PNG)
+
+
+
+
+
 
